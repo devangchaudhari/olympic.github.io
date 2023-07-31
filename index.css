@@ -1,0 +1,509 @@
+
+
+.bars {
+    border: 0;
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+    height: 25px;
+    overflow: hidden;
+  }
+  
+body {
+    margin: 0;
+    line-height: normal;
+    
+    
+  }
+  
+  :root {
+    /* fonts */
+    --font-kadwa: Kadwa;
+    --font-judson: Judson;
+  
+    /* font sizes */
+    --font-size-11xl: 30px;
+    --font-size-56xl: 75px;
+    --font-size-26xl: 45px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+  
+    /* border radiuses */
+    --br-23xl: 42px;
+  }
+  
+@keyframes scale-up {
+    0% {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .macbook-air-1-child {
+    position: absolute;
+    top: 122.49px;
+    left: 844.75px;
+    border-right: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1px;
+    height: 622.01px;
+  }
+  .macbook-air-1-item {
+    position: absolute;
+    top: 742px;
+    left: 0;
+    width: 1280px;
+    height: 2px;
+  }
+  .athletes,
+  .meet-indias-sportpersons {
+    position: absolute;
+    top: 673px;
+    left: 56px;
+    font-size: var(--font-size-11xl);
+    display: inline-block;
+    width: 758px;
+    height: 49px;
+  }
+  .athletes {
+    top: 2566px;
+    left: 470px;
+    font-size: var(--font-size-56xl);
+    font-family: var(--font-judson);
+    width: 288px;
+    height: 67px;
+  }
+  .screenshot-2023-07-27-at-1034 {
+    position: absolute;
+    top: 1656px;
+    left: 67px;
+    width: 1106px;
+    height: 848px;
+    object-fit: cover;
+  }
+  .indian-athletes-qualified {
+    position: absolute;
+    top: 1536px;
+    left: 91px;
+    display: inline-block;
+    width: 1120px;
+    height: 74px;
+  }
+  .bg-logo-1-icon {
+    position: absolute;
+    top: 754px;
+    left: 21px;
+    width: 70.07px;
+    height: 69px;
+    object-fit: cover;
+  }
+  .frame-child,
+  .frame-inner,
+  .frame-item,
+  .rectangle-icon {
+    position: relative;
+    border-radius: var(--br-23xl);
+    width: 273px;
+    height: 257px;
+    object-fit: cover;
+  }
+  .frame-inner,
+  .frame-item,
+  .rectangle-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 271px;
+  }
+  .frame-inner,
+  .rectangle-icon {
+    left: 630px;
+  }
+  .rectangle-icon {
+    left: 319px;
+  }
+  .frame1 {
+    flex: 1;
+    position: relative;
+    height: 257px;
+    overflow: hidden;
+  }
+  .frame {
+    text-decoration: none;
+    position: absolute;
+    top: 2663px;
+    left: 30px;
+    width: 1220px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 67px;
+  }
+  .avinash-sable,
+  .murali-sreeshankar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 225px;
+    height: 49px;
+  }
+  .murali-sreeshankar {
+    left: 296px;
+    width: 303px;
+  }
+  .paramjeet-bisht {
+    top: 0;
+    left: 657px;
+    display: inline-block;
+    width: 256px;
+  }
+  .frame2,
+  .paramjeet-bisht,
+  .vikas-shingh {
+    position: absolute;
+    height: 49px;
+  }
+  .vikas-shingh {
+    top: 0;
+    left: 972px;
+    display: inline-block;
+    width: 225px;
+  }
+  .frame2 {
+    top: 2975px;
+    left: 53px;
+    width: 1197px;
+    overflow: hidden;
+    font-size: var(--font-size-11xl);
+  }
+  .timer-for-olympic {
+    position: absolute;
+    top: 17px;
+    left: 317px;
+    display: inline-block;
+    width: 649px;
+    height: 67px;
+  }
+  .b,
+  .footer {
+    position: absolute;
+  }
+  .b {
+    top: 110px;
+    left: 406px;
+    font-size: 108.58px;
+    display: inline-block;
+    width: 416.96px;
+    height: 97px;
+  }
+  .footer {
+    top: 3134px;
+    left: -17px;
+    border-radius: 20px;
+    background-color: var(--color-black);
+    width: 1318px;
+    height: 274px;
+    overflow: hidden;
+    font-size: var(--font-size-56xl);
+    color: var(--color-white);
+    font-family: var(--font-judson);
+  }
+  .olympic-2024 {
+    position: absolute;
+    top: 749px;
+    left: 91px;
+    text-align: center;
+    display: inline-block;
+    width: 321px;
+    height: 74px;
+    padding-top: 25px;
+  }
+  .bg-logo-2-icon,
+  .bg-logo-3-icon {
+    position: absolute;
+    top: 754px;
+    left: 435px;
+    width: 70.07px;
+    height: 69px;
+    object-fit: cover;
+  }
+  .bg-logo-3-icon {
+    left: 869px;
+  }
+  .olympic-20241,
+  .olympic-20242 {
+    position: absolute;
+    top: 749px;
+    text-align: center;
+    display: inline-block;
+    width: 321px;
+    height: 74px;
+    padding-top: 25px;
+  }
+  .olympic-20241 {
+    left: 505px;
+    
+  }
+  .olympic-20242 {
+    left: 939px;
+  }
+  .content-child,
+  .content-item,
+  .line-7-stroke {
+    position: absolute;
+    top: 1496px;
+    left: 0;
+    width: 1280px;
+    height: 1px;
+  }
+  .content-child,
+  .content-item {
+    top: 0;
+    width: 1259px;
+  }
+  .content-item {
+    top: 0.49px;
+    left: 686.49px;
+    border-right: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1.03px;
+    height: 655.03px;
+  }
+  .olympic-1-icon,
+  .paris-olympic-1 {
+    position: absolute;
+    top: 3px;
+    left: 692px;
+    width: 588px;
+    height: 654.15px;
+    object-fit: cover;
+  }
+  .paris-olympic-1 {
+    top: 0;
+    left: 173px;
+    width: 306px;
+    height: 306px;
+    object-fit: contain;
+  }
+  .the-paris-2024 {
+    position: absolute;
+    top: 290px;
+    left: 49px;
+    display: inline-block;
+    width: 607px;
+    height: 304px;
+  }
+  .content {
+    position: absolute;
+    top: 833px;
+    left: 21px;
+    width: 1280px;
+    height: 657.15px;
+    overflow: hidden;
+    font-size: 30.45px;
+  }
+  .f-447901399-5otnw1t2gsmr4zmj64-icon {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 189px;
+    height: 126px;
+    object-fit: cover;
+  }
+  .line-div {
+    position: absolute;
+    top: 41.44px;
+    left: 186px;
+    border-right: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1px;
+    height: 99.13px;
+  }
+  .olympic-rings-logo-transparent-icon {
+    position: absolute;
+    top: 0;
+    left: 216px;
+    width: 178px;
+    height: 181.96px;
+    object-fit: contain;
+  }
+  .frame3 {
+    position: absolute;
+    top: 204px;
+    left: 246px;
+    width: 394px;
+    height: 181.96px;
+    overflow: hidden;
+    opacity: 1;
+  }
+  .frame3.animate {
+    animation: 1s ease 0s 1 normal forwards scale-up;
+  }
+  .indias,
+  .olympic-network {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    display: inline-block;
+    width: 244px;
+    height: 109px;
+  }
+  .olympic-network {
+    top: 109px;
+    left: 0;
+    font-size: var(--font-size-56xl);
+    font-family: var(--font-judson);
+    width: 611px;
+    height: 67px;
+  }
+  .frame4 {
+    position: relative;
+    width: 611px;
+    height: 200px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-wrapper {
+    position: absolute;
+    top: 433px;
+    left: 160px;
+    width: 611px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    font-size: 70px;
+  }
+  .frame-wrapper.animate {
+    animation: 1s ease 0s 1 normal forwards fade-in;
+  }
+  .olympic-rings-logo-transparent-icon1 {
+    position: absolute;
+    top: 25px;
+    left: 29px;
+    width: 178px;
+    height: 181.96px;
+    object-fit: contain;
+  }
+  .vector-icon {
+    position: absolute;
+    height: 18.03%;
+    width: 3.45%;
+    top: 27.48%;
+    right: 2.66%;
+    bottom: 44.49%;
+    left: 92.89%;
+    max-width: 10%;
+    overflow: hidden;
+    max-height: 30%;
+    padding-top: 38px;
+    
+    
+  }
+  .home,
+  .navbar-child,
+  .sports {
+    position: absolute;
+    top: 147px;
+    left: 0;
+    width: 1280px;
+    height: 2px;
+    
+  }
+  .home,
+  .sports {
+    top: 52px;
+    left: 570px;
+    display: inline-block;
+    width: 94px;
+    height: 49px;
+    padding-top: 39px;
+  }
+  .sports {
+    top: 51px;
+    left: 737px;
+    width: 115px;
+  }
+  .contact-us1 {
+    margin: 0;
+    
+  }
+  .contact-us {
+    position: absolute;
+    top: 52px;
+    left: 880px;
+    display: inline-block;
+    width: 184px;
+    height: 49px;
+    padding-top: 39px;
+  }
+  .navbar-item {
+    position: absolute;
+    top: 149px;
+    left: calc(50% + 212px);
+    background-color: #d9d9d9;
+    width: 428px;
+    height: 613px;
+  }
+  .macbook-air-1,
+  .navbar {
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .navbar {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 1280px;
+    height: 181.96px;
+    font-size: var(--font-size-11xl);
+    color: inherit;
+  }
+  .macbook-air-1 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 3381px;
+    cursor: pointer;
+    text-align: left;
+    font-size: var(--font-size-26xl);
+    color: var(--color-black);
+    font-family: var(--font-kadwa);
+  }
+  @media screen and (max-width: 1200px) {
+    .footer {
+      opacity: 1;
+    }
+    .footer.animate {
+      animation: 1s ease 0s 1 normal forwards scale-up;
+    }
+    @keyframes scale-up {
+      0% {
+        transform: scale(0.5);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+  }
+
+
+
+
+
+ 
